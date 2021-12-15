@@ -18,9 +18,9 @@ with open(sys.argv[1]) as f:
         if i < 5:
             info = line.split(':')
             if i == 0:
-                ticker = info[1].strip()
+                ticker = info[1].strip().upper()
             elif i == 1:
-                put_call = info[1].strip()
+                put_call = info[1].strip().lower()
             elif i == 2:
                 optiondate = info[1].strip()
             elif i == 3:

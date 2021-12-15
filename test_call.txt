@@ -1,5 +1,5 @@
 ticker: GLW
-put/call: call
+put/call: Call
 current date: 12/14/2021
 exp date: 1/28/2022
 
