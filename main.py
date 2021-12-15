@@ -17,6 +17,7 @@ with open(sys.argv[1]) as f:
         # FIRST 4 LINES ARE TICKER, PUT/CALL, OPTION DATE, EXPIRATION DATE. 5TH LINE IS BLANK.
         if i < 5:
             info = line.split(':')
+            
             if i == 0:
                 ticker = info[1].strip().upper()
             elif i == 1:
